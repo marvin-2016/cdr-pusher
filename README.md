@@ -12,9 +12,9 @@ Billing reporting independently of the type of switches you have in your
 infrastructure, so you can do aggregation and mediation on CDRs coming from a
 variety of communications platform such as Asterisk, FreeSWITCH, Kamailio & others.
 
-[![circleci](https://circleci.com/gh/areski/cdr-pusher.png)](https://circleci.com/gh/areski/cdr-pusher)
+[![circleci](https://circleci.com/gh/marvin-2016/cdr-pusher.png)](https://circleci.com/gh/marvin-2016/cdr-pusher)
 
-[![Go Walker](http://gowalker.org/api/v1/badge)](https://gowalker.org/github.com/areski/cdr-pusher)
+[![Go Walker](http://gowalker.org/api/v1/badge)](https://gowalker.org/github.com/marvin-2016/cdr-pusher)
 
 
 ## Install / Run
@@ -41,7 +41,7 @@ To install and run the cdr-pusher application, follow those steps:
 
     $ mkdir /opt/app
     $ cd /opt/app
-    $ git clone https://github.com/areski/cdr-pusher.git
+    $ git clone https://github.com/marvin-2016/cdr-pusher.git
     $ cd cdr-pusher
     $ export GOPATH=`pwd`
     $ make build
@@ -52,7 +52,7 @@ If you have some issues with the build, it's possible that you don't have a
 recent version of Git, we need Git version >= 1.7.4.
 On CentOS 6.X, upgrade Git as follow: http://tecadmin.net/how-to-upgrade-git-version-1-7-10-on-centos-6/
 
-The config file [cdr-pusher.yaml](https://raw.githubusercontent.com/areski/cdr-pusher/master/cdr-pusher.yaml)
+The config file [cdr-pusher.yaml](https://raw.githubusercontent.com/marvin-2016/cdr-pusher/master/cdr-pusher.yaml)
 and is installed at the following location: /etc/cdr-pusher.yaml
 
 
@@ -275,9 +275,9 @@ Here an example of 'cdr_sqlite.conf':
 
 ## GoLint
 
-http://go-lint.appspot.com/github.com/areski/cdr-pusher
+http://go-lint.appspot.com/github.com/marvin-2016/cdr-pusher
 
-http://goreportcard.com/report/areski/cdr-pusher
+http://goreportcard.com/report/marvin-2016/cdr-pusher
 
 
 ## Testing
@@ -289,7 +289,7 @@ To run the tests, follow this step:
 
 ## Test Coverage
 
-Visit gocover for the test coverage: http://gocover.io/github.com/areski/cdr-pusher
+Visit gocover for the test coverage: http://gocover.io/github.com/marvin-2016/cdr-pusher
 
 
 ## License
